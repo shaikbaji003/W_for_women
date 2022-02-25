@@ -1,0 +1,78 @@
+.card{
+    width:fit-content;
+    height: fit-content;
+    margin: 10px;
+    margin-bottom: 5px;
+    
+}
+.image-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.view-detail{
+    padding-top:5px;
+    padding-bottom: 5px;    
+    color: white;
+    width:100%;
+   
+    margin-top: -30px;  
+    background-color: maroon;
+    cursor: pointer;
+    transition-delay: 1s;
+}
+.image{
+    width:230px;
+    height:350px;
+    cursor: pointer;
+}
+.name{
+    margin-top: 0px;
+    width: 200px;
+    height: fit-content;
+    color: black;
+    text-align: center;
+}
+.Price{
+    margin-top:-10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.price-rate{
+    margin-top:-10px;
+    margin-top: 0px;
+   
+}
+
+.text-center{
+    text-align: center;
+}
+.size{
+    text-align: center;
+   
+    width: 200px;
+
+}
+.active{
+    border: 1px dashed rgb(75, 73, 73,0.8);
+   transition-delay:2ms;
+    
+}
+.discount{
+    color: red;
+    font-size:large;
+    margin-left: 30px;
+    
+}
+.heart{
+    position: relative;
+    top: -340px;  
+    left: 5px;
+    background-color: rgba(246, 245, 245, 0.938);
+    width: 30px;
+    height:30px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 50% 50%;
+}

@@ -1,0 +1,31 @@
+.title-container{
+    border: 1px solid rgb(128, 128, 128,0.8);
+    display: flex;
+    background:transparent;
+    justify-content: space-between;
+    
+}
+.title{
+    text-transform: capitalize;
+    font-size: 20px;    
+    width: 200px; 
+    padding: 8px;
+}
+.arrow{
+    position: absolute;
+    right: 10px;
+    color: black;
+    
+}
+.content{
+    border: 0.5px solid rgb(133, 129, 129,0.6);
+    background-color:white;
+    min-height: 50px;
+    width: 99%;
+    overflow: scroll; 
+    height: 200px;
+}
+.filtersList{
+    padding:5px;
+   
+}
